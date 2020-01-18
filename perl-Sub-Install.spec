@@ -1,6 +1,6 @@
 Name:           perl-Sub-Install
 Version:        0.926
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Install subroutines into packages easily
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -62,6 +62,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.926-6
+- Mass rebuild 2013-12-27
+
 * Mon Aug 20 2012 Petr Pisar <ppisar@redhat.com> - 0.926-5
 - Specify all dependencies
 
